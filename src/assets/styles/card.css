@@ -1,0 +1,64 @@
+.container_card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container_card p {
+    margin: 0;
+}
+
+.large {
+    width: 60%;
+    background-color: var(--bluePrimary);
+    display: grid;
+}
+
+.short {
+    width: 30%;
+    background-color: var(--blueSecondary);
+    display: grid;
+}
+
+.card_title {
+    color: var(--white);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+
+.data_card {
+    font-weight: 700;
+    font-size: 5.2rem;
+    padding: 0;
+    color: var(--white);
+}
+
+.text_card {
+    color: var(--white);
+}
+
+.weather {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.data_weather {
+    grid-row: 2 / 3;
+}
+
+.text_weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row: 1 / 3;
+}
+
+.container_image_card {
+    width: 40%;
+    
+}

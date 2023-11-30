@@ -1,0 +1,15 @@
+.container_dashboard {
+    display: flex;
+    padding: 5rem 0;
+    gap: 10rem;
+    height: 100vh;
+}
+
+.container_data {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card-link {
+    display: contents;
+}
